@@ -14,6 +14,10 @@ Sub = A - B
 % Matrix Multiplication
 Mul = A * B
 
+%Element wise multi 
+
+Mul2 = A .* B
+
 syms t a b c;
 
 o = t^3
