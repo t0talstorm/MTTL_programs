@@ -4,7 +4,7 @@
 
 syms a b t s ;
 
-f1 = exp(-t^2) ;
+f1 =  exp(-t^2) ;
 F1 = fourier(f1)
 
 f2 = a * abs(t);
